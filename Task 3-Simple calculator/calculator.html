@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body> 
+    <h1>Simple Calculator using HTML & CSS</h1>
+    <div class="container">
+        <div class="calculator">
+            
+            <form>
+                
+                <div class="display">
+                    <input type="text" name="display" placeholder="0">
+                </div>
+                <div>
+                    <input type="button" value="AC" onclick="display.value='' ">
+                    <input type="button" value="DE"onclick="display.value= display.value.toString().slice(0,-1) ">
+                    <input type="button" value="%"onclick="display.value=display.value/100 ">
+                    <input type="button" value="/"onclick="display.value+='/' ">
+
+                </div>
+                <div>
+                    <input type="button" value="7" onclick="display.value+='7' ">
+                    <input type="button" value="8" onclick="display.value+='8' ">
+                    <input type="button" value="9" onclick="display.value+='9' ">
+                    <input type="button" value="*" onclick="display.value+='*' ">
+                </div>
+                <div>
+                    <input type="button" value="4" onclick="display.value+='4' ">
+                    <input type="button" value="5" onclick="display.value+='5' ">
+                    <input type="button" value="6" onclick="display.value+='6' ">
+                    <input type="button" value="-" onclick="display.value+='-' ">
+                </div>
+                <div>
+                    <input type="button" value="1" onclick="display.value+='1' ">
+                    <input type="button" value="2" onclick="display.value+='2' ">
+                    <input type="button" value="3" onclick="display.value+='3' ">
+                    <input type="button" value="+"onclick="display.value+='+' ">
+                </div>
+                <div>
+                    <input type="button" value="0" onclick="display.value+='0' ">
+                    <input type="button" value="."onclick="display.value+='.' ">
+                    <input type="button" value="=" onclick="display.value= eval(display.value) "class="equal">
+                </div>
+            </form>
+            <br>
+            <div class="s">
+                <div class="socialicon">
+                    <a href="https://www.instagram.com/_shiva0610_?igsh=MTJlOXMzazltdGZ6Yw==" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://github.com/shivaguru-06"target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                    <a href="https://www.linkedin.com/in/shivaguru-s-765b30257" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+       <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
