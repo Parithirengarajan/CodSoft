@@ -1,0 +1,42 @@
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #333;
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    
+
+}
+.clr h2{
+    font-size: 30px;
+    font-family:Georgia;;
+}
+ h2 span{
+    color:red;
+}
+span{
+    color:yellow;
+}
+body{
+    background-image: url('hme.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#me{
+    background: rgba(255, 255, 255, 0.852); 
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    color: #333;
+    max-width: 600px;
+    margin: 0 auto;
+}

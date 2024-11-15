@@ -1,0 +1,66 @@
+.sec2{
+    margin-left: 8%;
+    margin-top: 13%;
+
+    
+}
+
+
+.sec2 h1{
+    font-size: 60px;
+    font-family:Georgia;
+    margin-bottom: 20px;
+}
+
+span{
+    color:blueviolet;
+}
+
+.sec2 p{
+    line-height: 22px;
+    
+}
+
+.sec2 button a{
+    text-decoration:none;
+    color:black;
+    font-weight: bold;
+}
+
+
+
+.sec2 img{
+    background-color: silver;
+    width: 10%;
+    height: 15%;
+    position: relative;
+}
+
+.images{
+    width:45%;
+    height:80%;
+    position: absolute;
+    bottom: 0%;
+    top:20%;
+    right: 50px;
+
+}
+
+.images img{
+    height: 100%;
+    width: 100%;
+    position:relative;
+    left:70%;
+    top:10%;
+    transform:translate(-50%);
+    transition: bottom 1s,left 1s;
+}
+
+
+
+
+
+
+
+
+
