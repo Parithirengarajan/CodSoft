@@ -1,0 +1,131 @@
+@import url("https://fonts.googlepls.com/css2?family=Montserrat:wght@500;800&display=swap")
+,
+::before
+
+::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Montaerrat,sans-serif';
+    background: #171115;
+    color:#fff;
+    background-image: url('background.png');
+    background-size: cover;
+    background-size: no-repeat;
+    
+
+}
+
+body::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    f
+}
+header img{
+    width: 90%;
+    height: 90%;
+}
+header nav{
+   display:flex;
+   gap: .4rem;
+   justify-content: space-between;
+   align-items: center;
+}
+header nav a{
+    text-decoration: none;
+    color: inherit;
+    font-size: .9rem;
+    text-transform: capitalize;
+    border-radius: 100vw;
+    padding: .4rem 1rem;
+    transition: .3s ease;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+header nav a:hover ,.q1{
+    background: #2302c1;
+}
+
+.main{
+    position:absolute;
+    bottom:0%;
+    right:-20em;
+    width: 62%;
+
+}
+.socialicon{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.socialicon ion-icon{
+    background: #fff;
+    color:#2302c1;
+    padding: .3rem;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.socialicon ion-icon:hover{
+    background: red;
+    color:#fff
+}
+section{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+}
+section .content{
+    padding-left: 10%;
+}
+section .content h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+    position: relative;
+}
+
+
+.buttonholder button{
+        background: black;
+        padding: 10px 18px;
+        text-decoration: none;
+        font-weight: bold;
+        color:#fff
+        dispay:inline-block;
+        margin:30px o;
+        border-radius: 5px;
+    
+}
+.buttonholder button:hover{
+    background: orangered;
+}
+section .content p{
+    font-size: 20px;
+    width: 70%;
+    font-family: 'Times New Roman', Times, serif;
+
+}

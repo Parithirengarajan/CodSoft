@@ -1,0 +1,27 @@
+body{
+    background-image: url('g.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+p{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'sans-serif';
+    color: antiquewhite;
+}
+h1{
+    font-weight: bolder;
+    color: lawngreen;
+    font-size: 70px;
+}
+button{
+    background: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color:#fff
+    dispay:inline-block;
+    margin:30px o;
+    border-radius: 5px;
+}
